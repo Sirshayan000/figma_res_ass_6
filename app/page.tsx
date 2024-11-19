@@ -3,7 +3,7 @@ export default function HomePage(){
   return(
     <div className="h-[7678px] w-[1280px] bg-[#f7f7f7] text-[black]">
 {/* ----------------------------userID--------- */}
-      <div className="h-[54px] w-[1280px] flex justify-center items-center border-2">
+      <div className=" h-[54px] w-[1280px] flex justify-center items-center border-2">
 
         <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[30px] w-[386px] flex justify-center items-center text-[14px] font-normal ">
            <p>Phone Number: 956 742 455 678</p>
@@ -15,7 +15,7 @@ export default function HomePage(){
       </div>
 
 {/* ----------------------------navBAR--------- */}
-      <div className="mt-[15px] h-[72px] w-[1280px] flex justify-evenly items-center border-2">
+      <div className=" mt-[15px] h-[72px] w-[1280px] flex justify-evenly items-center border-2">
         <div className="flex">
           <div className="h-[30.38px] w-[32.58px] bg-[url('/images/dasgnr_logo.png')] bg-cover"></div>
           <h3 style={{ fontFamily: 'Inter, sans-serif' }} className="pl-[5px] text-[25.07px] font-bold">Dasgnr</h3>
@@ -47,11 +47,37 @@ export default function HomePage(){
           <button style={{ fontFamily: 'Roboto, sans-serif' }} className="ml-[16px] font-normal text-[16px] border border-black rounded-md h-[48px] w-[164px]">Explore Courses</button>
           </span>
         </div>
-        <div  className="w-[640px] h-[900px] bg-[url('/images/hero_girl.jpeg')] bg-cover">
 
+        <div  className="mt-[-537px] ml-[638px] w-[640px] h-[800px] bg-[url('/images/hero_girl.jpeg')] bg-cover bg-center">
+        </div>
+        
+      </div>
+{/* -----------------------------------------ADVERTISEMENT--------- */}
+       <div className="flex items-center h-[228px] w-[1280px] border-2 border-black">
+        <div className="h-[68px] w-[335px] border">
+          <h5 style={{ fontFamily: 'Roboto, sans-serif' }}  className="font-bold text-[24px]">
+          Trusted by 2000+ companies worldwide.
+          </h5>
         </div>
 
-      </div>
+        <div className="flex justify-evenly items-center h-[56px] w-[880px] ml-[65px] border">
+          <div className="h-[38.52px] w-[123.8px] bg-[url('/images/ad_1_logo.png')] bg-cover">  </div>
+          <div className="h-[38.52px] w-[123.8px] bg-[url('/images/ad_2_logo.png')] bg-cover">  </div>
+          <div className="h-[38.52px] w-[123.8px] bg-[url('/images/ad_3_logo.png')] bg-cover">  </div>
+          <div className="h-[38.52px] w-[123.8px] bg-[url('/images/ad_4_logo.png')] bg-cover">  </div>
+          <div className="h-[38.52px] w-[123.8px] bg-[url('/images/ad_5_logo.png')] bg-cover">  </div>
+          <div className="h-[38.52px] w-[123.8px] bg-[url('/images/ad_6_logo.png')] bg-cover">  </div>
+        </div>
+       </div>
+
+
+
+
+
+
+
+
+
 
     </div>
   )
