@@ -12,17 +12,17 @@ export default function HomePage(){
          </div>
 
          <div className="h-[30px] w-[736px] flex justify-center items-end text-[14px]">
-            <div className="h-[24px] w-[24px] bg-[url('/images/facebook.png')] bg-cover"></div>
-            <div className="h-[24px] w-[24px] bg-[url('/images/insta.png')] bg-cover"></div>
-            <div className="h-[24px] w-[24px] bg-[url('/images/twitter.png')] bg-cover"></div>
-            <div className="h-[24px] w-[24px] bg-[url('/images/linkdin.png')] bg-cover"></div>
+            <div className="h-[24px] w-[24px] "></div>
+            <div className="h-[24px] w-[24px] "></div>
+            <div className="h-[24px] w-[24px] "></div>
+            <div className="h-[24px] w-[24px] "></div>
          </div>
       </div>
 
 {/* ----------------------------navBAR--------- */}
       <div className=" mt-[15px] h-[72px] w-[1280px] flex justify-evenly bg-[#f7f7f7] items-center border">
         <div className="flex">
-          <div className="h-[30.38px] w-[32.58px] bg-[url('/images/dasgnr_logo.png')] bg-cover"></div>
+          <div className="h-[30.38px] w-[32.58px] bg-[url('/images/dasgnr-logo.png')] bg-cover"></div>
           <h3 style={{ fontFamily: 'Inter, sans-serif' }} className="pl-[5px] text-[25.07px] font-bold">Dasgnr</h3>
         </div>
 
@@ -53,7 +53,7 @@ export default function HomePage(){
           </span>
         </div>
 
-        <div  className="mt-[-537px] ml-[638px] w-[640px] h-[800px] bg-[url('/images/hero_girl.jpeg')] bg-cover bg-center">
+        <div  className="mt-[-537px] ml-[638px] w-[640px] h-[800px] bg-[url('/images/hero-girl.jpeg')] bg-cover bg-center">
         </div>
         
       </div>
@@ -66,12 +66,12 @@ export default function HomePage(){
         </div>
 
         <div className="flex justify-evenly items-center h-[68px] w-[880px] ml-[65px] ">
-          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad_1_logo.png')] bg-cover">  </div>
-          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad_2_logo.png')] bg-cover">  </div>
-          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad_3_logo.png')] bg-cover">  </div>
-          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad_4_logo.png')] bg-cover">  </div>
-          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad_5_logo.png')] bg-cover">  </div>
-          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad_6_logo.png')] bg-cover">  </div>
+          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad-1-logo.png')] bg-cover">  </div>
+          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad-2-logo.png')] bg-cover">  </div>
+          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad-3-logo.png')] bg-cover">  </div>
+          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad-4-logo.png')] bg-cover">  </div>
+          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad-5-logo.png')] bg-cover">  </div>
+          <div className="h-[52.52px] w-[123.8px] bg-[url('/images/ad-6-logo.png')] bg-cover">  </div>
         </div>
        </div>
 
