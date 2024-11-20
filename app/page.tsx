@@ -6,12 +6,17 @@ export default function HomePage(){
       <div className=" h-[54px] w-[1280px] flex justify-center bg-[#f7f7f7] items-center border">
 
         <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[30px] w-[386px] flex justify-center items-center text-[14px] font-normal ">
-           <p>Phone Number: 956 742 455 678</p>
-           <p className="pl-[10px] pr-[10px] ">|</p>
-           <p>Email:info@ddsgnr.com</p>
+           <p className="pr-[10px]">Phone Number: 956 742 455 678</p>
+           <p className=" h-[30px] w-[1px] bg-[url('/images/line-3.png')] bg cover"></p>
+           <p className="pl-[10px]">Email:info@ddsgnr.com</p>
          </div>
 
-         <div className="h-[30px] w-[736px] flex justify-center items-end text-[14px]">icons</div>
+         <div className="h-[30px] w-[736px] flex justify-center items-end text-[14px]">
+            <div className="h-[24px] w-[24px] bg-[url('/images/facebook.png')] bg-cover"></div>
+            <div className="h-[24px] w-[24px] bg-[url('/images/insta.png')] bg-cover"></div>
+            <div className="h-[24px] w-[24px] bg-[url('/images/twitter.png')] bg-cover"></div>
+            <div className="h-[24px] w-[24px] bg-[url('/images/linkdin.png')] bg-cover"></div>
+         </div>
       </div>
 
 {/* ----------------------------navBAR--------- */}
@@ -74,7 +79,7 @@ export default function HomePage(){
 
                   {/* -------------EX_DIV_1------------ */}
        <div className="h-[1050px] w-[1280px] bg-[#ffffff]">
-        <div style={{ fontFamily: 'Roboto, sans-serif' }}  className="h-[415px] w-[1280px] pt-[150px] pl-[250px] border">
+        <div style={{ fontFamily: 'Roboto, sans-serif' }}  className="h-[415px] w-[1280px] pt-[150px] pl-[250px] ">
             <h2 className="font-bold text-[48px]">Explore Courses By Category</h2>
             <p className="font-normal text-[18px]">Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
 
@@ -122,7 +127,7 @@ export default function HomePage(){
             {/* -------SEC2_box_1---- */}
              <div className="flex justify-evenly items-center h-[132px] w-[410.67px] bg-[#f7f7f7] ">
                  <div className="flex justify-evenly items-center h-[100px] w-[100px] bg-[#ffffff]"> 
-                     <div className="h-[32px] w-[32px]"></div>
+                     <div className="h-[32px] w-[32px] bg-[url('/images/microphone.png')] bg-cover"></div>
                  </div>
                  <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[57px] w-[246.67px]">
                   <p className="font-semibold text-[20px]">Communication</p>
@@ -132,7 +137,7 @@ export default function HomePage(){
              {/* -------SEC2_box_2---- */}
              <div className="flex justify-evenly items-center h-[132px] w-[410.67px] bg-[#f7f7f7] ">
                  <div className="flex justify-evenly items-center h-[100px] w-[100px] bg-[#ffffff]"> 
-                     <div className="h-[32px] w-[32px]"></div>
+                     <div className="h-[32px] w-[32px] bg-[url('/images/link.png')] bg-cover"></div>
                  </div>
                  <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[57px] w-[246.67px]">
                   <p className="font-semibold text-[20px]">Digital Marketing</p>
@@ -142,7 +147,7 @@ export default function HomePage(){
              {/* -------SEC2_box_3---- */}
              <div className="flex justify-evenly items-center h-[132px] w-[410.67px] bg-[#f7f7f7] ">
                  <div className="flex justify-evenly items-center h-[100px] w-[100px] bg-[#ffffff]"> 
-                     <div className="h-[32px] w-[32px]"></div>
+                     <div className="h-[32px] w-[32px] bg-[url('/images/arrow-2.png')] bg-cover"></div>
                  </div>
                  <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[57px] w-[246.67px]">
                   <p className="font-semibold text-[20px]">Self Development</p>
@@ -158,7 +163,7 @@ export default function HomePage(){
             {/* -------SEC3_box_1---- */}
              <div className="flex justify-evenly items-center h-[132px] w-[410.67px] bg-[#f7f7f7] ">
                  <div className="flex justify-evenly items-center h-[100px] w-[100px] bg-[#ffffff]"> 
-                     <div className="h-[32px] w-[32px]"></div>
+                     <div className="h-[32px] w-[32px] bg-[url('/images/briefcase.png')] bg-cover"></div>
                  </div>
                  <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[57px] w-[246.67px]">
                   <p className="font-semibold text-[20px]">Business</p>
@@ -168,7 +173,7 @@ export default function HomePage(){
              {/* -------SEC3_box_2---- */}
              <div className="flex justify-evenly items-center h-[132px] w-[410.67px] bg-[#f7f7f7] ">
                  <div className="flex justify-evenly items-center h-[100px] w-[100px] bg-[#ffffff]"> 
-                     <div className="h-[32px] w-[32px]"></div>
+                     <div className="h-[32px] w-[32px] bg-[url('/images/book.png')] bg-cover"></div>
                  </div>
                  <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[57px] w-[246.67px]">
                   <p className="font-semibold text-[20px]">Finance</p>
@@ -178,7 +183,7 @@ export default function HomePage(){
              {/* -------SEC3_box_3---- */}
              <div className="flex justify-evenly items-center h-[132px] w-[410.67px] bg-[#f7f7f7] ">
                  <div className="flex justify-evenly items-center h-[100px] w-[100px] bg-[#ffffff]"> 
-                     <div className="h-[32px] w-[32px]"></div>
+                     <div className="h-[32px] w-[32px] bg-[url('/images/book-2.png')] bg-cover"></div>
                  </div>
                  <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[57px] w-[246.67px]">
                   <p className="font-semibold text-[20px]">Consulting</p>
@@ -203,6 +208,42 @@ export default function HomePage(){
        </div>  
 
        {/* --------------------EXPOLRE_END-------------------------------------------------------------- */}
+
+{/* ------------------------------------ACHIEVEMENTS--------------- */}
+       <div className="h-[488px] w-[1280px] mt-[80px] border border-transparent">
+          <div className="h-[264px] w-[1152px] mt-[100px] ml-[64px] ">
+
+             <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[136px] w-[1152px] text-center">
+                <h2 className="font-bold text-[48px]">Our Achivements</h2>
+                <p className="font-normal text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
+             </div>
+
+             <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[96px] w-[1256px] flex justify-evenly items-center ml-[-35px]">
+                 <span className="h-[80px] w-[296px] text-center">
+                     <h3 className="font-bold text-[40px]">+200</h3>
+                     <p className="font-normal text-[16px]">Courses</p>
+                 </span>
+
+                 <span className="h-[80px] w-[296px] text-center">
+                     <h3 className="font-bold text-[40px]">50k</h3>
+                     <p className="font-normal text-[16px]">Mentors</p>
+                 </span>
+
+                 <span className="h-[80px] w-[296px] text-center">
+                     <h3 className="font-bold text-[40px]">370k</h3>
+                     <p className="font-normal text-[16px]">Students</p>
+                 </span>
+
+                 <span className="h-[80px] w-[296px] text-center">
+                     <h3 className="font-bold text-[40px]">100+</h3>
+                     <p className="font-normal text-[16px]">Recognition</p>
+                 </span>
+
+
+             </div>
+
+          </div>        
+       </div>
 
 
  {/*  body */}
