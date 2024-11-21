@@ -11,11 +11,11 @@ export default function HomePage(){
            <p className="pl-[10px]">Email:info@ddsgnr.com</p>
          </div>
 
-         <div className="h-[30px] w-[736px] flex justify-center items-end text-[14px]">
-            <div className="h-[24px] w-[24px] "></div>
-            <div className="h-[24px] w-[24px] "></div>
-            <div className="h-[24px] w-[24px] "></div>
-            <div className="h-[24px] w-[24px] "></div>
+         <div className="h-[30px] w-[736px] flex justify-end items-center text-[14px]">
+            <div className="h-[24px] w-[24px] text-center"><div className="h-[10px] w-[18px] bg-[url('/images/facebook.png')] bg-cover"></div></div>
+            <div className="h-[24px] w-[24px] bg-[url('/images/insta.png')] bg-cover"></div>
+            <div className="h-[24px] w-[24px] bg-[url('/images/twitter.png')] bg-cover"></div>
+            <div className="h-[18px] w-[18px] bg-[url('/images/Vector.svg')] bg-cover"></div>
          </div>
       </div>
 
@@ -238,12 +238,59 @@ export default function HomePage(){
                      <h3 className="font-bold text-[40px]">100+</h3>
                      <p className="font-normal text-[16px]">Recognition</p>
                  </span>
-
-
              </div>
-
           </div>        
        </div>
+
+ {/* ----------------------------------------COURSESsection----------------       */}
+
+        <div className="mt-[20px] h-[1742px] w-[1280px] border border-transparent">
+               
+              <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[30px] h-[118px] w-[768px] ml-[250px] text-center ">
+                <h1 className="font-bold text-[56px]">Courses</h1>
+                <p className="pt-[10px] font-normal text-[18px]">Your Ultimate Guide to learning</p>
+                
+              </div> 
+
+              <div className="mt-[80px] h-[1340px] w-[1280px]">
+                <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[40px] w-[336px] flex justify-evenly items-center font-normal text-[16px] ml-[465px] ">
+                   <a  href="#">Popular</a>
+                   <a  href="#">Recommanded</a>
+                   <a  href="#">Best Price</a>
+                </div>
+
+              
+{/* --------------------------------------COUR-LAYer-1------------------ */}
+                <div className="mt-[100px] h-[534px] w-[1280px] ">
+                   {/* -------------------------LAY-1-box-1---------- */}
+                   <div className="h-[534px] w-[410px] bg-[#f7f7f7]">
+                      <div className="image_div w-[410px] h-[300px] bg-[url('/images/cour-1.png')] bg-cover"> </div>
+                           {/* ------------------------------- */}
+                      <div style={{ fontFamily: 'Roboto, sans-serif' }} className="connT_area pl-[20px] w-[410px] h-[210px] mt-[10px]">
+                         <div className="font-semibold text-[14px] flex ">
+                           <p>Design</p>
+                           <div className="h-[24px] w-[50px] flex justify-between items-center ml-[270px] ">
+                             <div className="h-[24px] w-[24px] bg-[url('/images/Star-1.png')] bg-cover"></div>
+                             <div className="h-[24px] w-[24px] text-[15px] pt-[2px]">5.0</div>
+                           </div>
+                         </div>
+
+                         <h5 className="font-bold text-[24px] mt-[10px]">UX/UI Design 201</h5>
+                         <p className="font-normal text-[16px] mt-[10px]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                         <div className="flex mt-[30px] text-center">
+                           <div className="font-normal text-[16px] h-[40px] w-[117px] border border-black  pt-[7px] rounded-md"><button>Enroll Now</button></div>
+                           <div className="h-[40px] w-[77px] pt-[7px] font-semibold text-[16px] "><p>$400</p></div>
+                         </div>
+
+                      </div>
+                   </div>
+
+                </div>
+
+              </div>
+
+      {/* cour-main */}
+        </div>
 
 
  {/*  body */}
