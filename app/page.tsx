@@ -261,15 +261,15 @@ export default function HomePage(){
 
               
 {/* --------------------------------------COUR-LAYer-1------------------ */}
-                <div className="mt-[100px] h-[534px] w-[1280px] ">
+                <div className="mt-[100px] h-[534px] w-[1280px] flex justify-between ">
                    {/* -------------------------LAY-1-box-1---------- */}
-                   <div className="h-[534px] w-[410px] bg-[#f7f7f7]">
-                      <div className="image_div w-[410px] h-[300px] bg-[url('/images/cour-1.png')] bg-cover"> </div>
+                   <div className="h-[534px] w-[400px] bg-[#f7f7f7]">
+                      <div className="image_div w-[400px] h-[300px] bg-[url('/images/cour-1.png')] bg-cover"> </div>
                            {/* ------------------------------- */}
                       <div style={{ fontFamily: 'Roboto, sans-serif' }} className="connT_area pl-[20px] w-[410px] h-[210px] mt-[10px]">
                          <div className="font-semibold text-[14px] flex ">
                            <p>Design</p>
-                           <div className="h-[24px] w-[50px] flex justify-between items-center ml-[270px] ">
+                           <div className="h-[24px] w-[50px] flex justify-between items-center ml-[260px] ">
                              <div className="h-[24px] w-[24px] bg-[url('/images/Star-1.png')] bg-cover"></div>
                              <div className="h-[24px] w-[24px] text-[15px] pt-[2px]">5.0</div>
                            </div>
@@ -284,13 +284,275 @@ export default function HomePage(){
 
                       </div>
                    </div>
+                     {/* -------------------------LAY-1-box-2---------- */}
+                     <div className="h-[534px] w-[400px] bg-[#f7f7f7]">
+                      <div className="image_div w-[400px] h-[300px] bg-[url('/images/cour-2.jpeg')] bg-cover"> </div>
+                           {/* ------------------------------- */}
+                      <div style={{ fontFamily: 'Roboto, sans-serif' }} className="connT_area pl-[20px] w-[410px] h-[210px] mt-[10px]">
+                         <div className="font-semibold text-[14px] flex ">
+                           <p>Programming</p>
+                           <div className="h-[24px] w-[50px] flex justify-between items-center ml-[220px] ">
+                             <div className="h-[24px] w-[24px] bg-[url('/images/Star-1.png')] bg-cover"></div>
+                             <div className="h-[24px] w-[24px] text-[15px] pt-[2px]">5.0</div>
+                           </div>
+                         </div>
 
+                         <h5 className="font-bold text-[24px] mt-[10px]">Introduction to Python</h5>
+                         <p className="font-normal text-[16px] mt-[10px]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                         <div className="flex mt-[30px] text-center">
+                           <div className="font-normal text-[16px] h-[40px] w-[117px] border border-black  pt-[7px] rounded-md"><button>Enroll Now</button></div>
+                           <div className="h-[40px] w-[77px] pt-[7px] font-semibold text-[16px] "><p>$400</p></div>
+                         </div>
+
+                      </div>
+                   </div>
+                     {/* -------------------------LAY-1-box-3---------- */}
+                     <div className="h-[534px] w-[400px] bg-[#f7f7f7]">
+                      <div className="image_div w-[400px] h-[300px] bg-[url('/images/cour-3.jpeg')] bg-cover"> </div>
+                           {/* ------------------------------- */}
+                      <div style={{ fontFamily: 'Roboto, sans-serif' }} className="connT_area pl-[20px] w-[410px] h-[210px] mt-[10px]">
+                         <div className="font-semibold text-[14px] flex ">
+                           <p>Business</p>
+                           <div className="h-[24px] w-[50px] flex justify-between items-center ml-[250px] ">
+                             <div className="h-[24px] w-[24px] bg-[url('/images/Star-1.png')] bg-cover"></div>
+                             <div className="h-[24px] w-[24px] text-[15px] pt-[2px]">5.0</div>
+                           </div>
+                         </div>
+
+                         <h5 className="font-bold text-[24px] mt-[10px]">Data Analysis for Beginners</h5>
+                         <p className="font-normal text-[16px] mt-[10px]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                         <div className="flex mt-[30px] text-center">
+                           <div className="font-normal text-[16px] h-[40px] w-[117px] border border-black  pt-[7px] rounded-md"><button>Enroll Now</button></div>
+                           <div className="h-[40px] w-[77px] pt-[7px] font-semibold text-[16px] "><p>$400</p></div>
+                         </div>
+
+                      </div>
+                   </div>
+                </div>
+{/* --------------------------------------COUR-LAYer-2------------------ */}
+                <div className="mt-[100px] h-[534px] w-[1280px] flex justify-between ">
+                   {/* -------------------------LAY-2-box-1---------- */}
+                   <div className="h-[534px] w-[405px] bg-[#f7f7f7]">
+                      <div className="image_div w-[405px] h-[300px] bg-[url('/images/cour-4.jpeg')] bg-cover"> </div>
+                           {/* ------------------------------- */}
+                      <div style={{ fontFamily: 'Roboto, sans-serif' }} className="connT_area pl-[20px] w-[410px] h-[210px] mt-[10px]">
+                         <div className="font-semibold text-[14px] flex ">
+                           <p>Art</p>
+                           <div className="h-[24px] w-[50px] flex justify-between items-center ml-[290px] ">
+                             <div className="h-[24px] w-[24px] bg-[url('/images/Star-1.png')] bg-cover"></div>
+                             <div className="h-[24px] w-[24px] text-[15px] pt-[2px]">5.0</div>
+                           </div>
+                         </div>
+
+                         <h5 className="font-bold text-[24px] mt-[10px]">Art Specialization</h5>
+                         <p className="font-normal text-[16px] mt-[10px]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                         <div className="flex mt-[30px] text-center">
+                           <div className="font-normal text-[16px] h-[40px] w-[117px] border border-black  pt-[7px] rounded-md"><button>Enroll Now</button></div>
+                           <div className="h-[40px] w-[77px] pt-[7px] font-semibold text-[16px] "><p>$400</p></div>
+                         </div>
+
+                      </div>
+                   </div>
+                     {/* -------------------------LAY-2-box-2---------- */}
+                     <div className="h-[534px] w-[405px] bg-[#f7f7f7]">
+                      <div className="image_div w-[405px] h-[300px] bg-[url('/images/cour-5.jpeg')] bg-cover"> </div>
+                           {/* ------------------------------- */}
+                      <div style={{ fontFamily: 'Roboto, sans-serif' }} className="connT_area pl-[20px] w-[410px] h-[210px] mt-[10px]">
+                         <div className="font-semibold text-[14px] flex ">
+                           <p>Law</p>
+                           <div className="h-[24px] w-[50px] flex justify-between items-center ml-[285px] ">
+                             <div className="h-[24px] w-[24px] bg-[url('/images/Star-1.png')] bg-cover"></div>
+                             <div className="h-[24px] w-[24px] text-[15px] pt-[2px]">5.0</div>
+                           </div>
+                         </div>
+
+                         <h5 className="font-bold text-[24px] mt-[10px]">Rule of Law</h5>
+                         <p className="font-normal text-[16px] mt-[10px]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                         <div className="flex mt-[30px] text-center">
+                           <div className="font-normal text-[16px] h-[40px] w-[117px] border border-black  pt-[7px] rounded-md"><button>Enroll Now</button></div>
+                           <div className="h-[40px] w-[77px] pt-[7px] font-semibold text-[16px] "><p>$400</p></div>
+                         </div>
+
+                      </div>
+                   </div>
+                     {/* -------------------------LAY-2-box-3---------- */}
+                     <div className="h-[534px] w-[405px] bg-[#f7f7f7]">
+                      <div className="image_div w-[405px] h-[300px] bg-[url('/images/cour-6.jpeg')] bg-cover"> </div>
+                           {/* ------------------------------- */}
+                      <div style={{ fontFamily: 'Roboto, sans-serif' }} className="connT_area pl-[20px] w-[410px] h-[210px] mt-[10px]">
+                         <div className="font-semibold text-[14px] flex ">
+                           <p>Tech</p>
+                           <div className="h-[24px] w-[50px] flex justify-between items-center ml-[280px] ">
+                             <div className="h-[24px] w-[24px] bg-[url('/images/Star-1.png')] bg-cover"></div>
+                             <div className="h-[24px] w-[24px] text-[15px] pt-[2px]">5.0</div>
+                           </div>
+                         </div>
+
+                         <h5 className="font-bold text-[24px] mt-[10px]">Introduction to webflow</h5>
+                         <p className="font-normal text-[16px] mt-[10px]" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+                         <div className="flex mt-[30px] text-center">
+                           <div className="font-normal text-[16px] h-[40px] w-[117px] border border-black  pt-[7px] rounded-md"><button>Enroll Now</button></div>
+                           <div className="h-[40px] w-[77px] pt-[7px] font-semibold text-[16px] "><p>$400</p></div>
+                         </div>
+
+                      </div>
+                   </div>
+                </div>
+{/* ----------------------------------------------viewCOURSESbutton- */}
+                <div className="flex justify-center items-center">
+                   <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[62px] h-[48px] w-[155px] border border-black rounded-md font-normal text-[16px] flex justify-center items-center">
+                      <button>View All Courses</button>
+                   </div>
                 </div>
 
               </div>
-
       {/* cour-main */}
         </div>
+
+{/* -------------------------------------------TEAMsection------------------- */}
+        
+        <div className="h-[885px] w-[1280px]  bg-[#f7f7f7] mt-[100px]">
+          {/* ----------------------------div_one----------- */}
+           <div className="pt-[100px]">
+            <div style={{ fontFamily: 'Roboto, sans-serif' }} className="border border-transparent ml-[250px] h-[109px] w-[768px] text-center">
+               <h1 className="font-bold text-[56px]">Our team</h1>
+               <p className="font-normal text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            </div>
+          </div>
+
+          {/* ----------------------------div_two----------- */}
+            <div className="h-[428px] w-[1280px]  mt-[80px]">
+                {/* --------------------TEAM_LAY_1-------------------- */}
+                 <div className="h-[209px] w-[1280px] flex justify-evenly">
+                      {/* ---------box-1---------- */}
+                     <div  className="h-[209px] w-[394px]">
+                                       {/* photo */}
+                           <div className="h-[80px] w-[394px] flex justify-center">          
+                             <div className="h-[80px] w-[80px] bg-[url('/images/human-1.png')] bg-cover  "></div>
+                           </div>                 
+                                            {/* names */}
+                           <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[30px] h-[57px] w-[394px] text-center">
+                              <h6 className="font-semibold text-[20px]">James Nduku</h6>
+                              <p className="font-normal text-[18px]">Marketing Coordinator</p>
+                           </div>
+                                        {/* aaccounts */}
+                          <div className="mt-[80px] h-[24px] w-[394px] flex justify-center">              
+                             <div className="h-[24px] w-[100px] flex justify-between">
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Linkedin.png')] bg-cover"></div>
+                                <div className="mt-[5px] h-[15.3px] w-[18px] bg-[url('/images/twit.png')] bg-cover"></div>
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Dribble.png')] bg-cover"></div>
+                             </div>
+                          </div>   
+                     </div>
+                      {/* ---------box-2---------- */}
+                      <div  className="h-[209px] w-[394px]">
+                                       {/* photo */}
+                           <div className="h-[80px] w-[394px] flex justify-center">          
+                             <div className="h-[80px] w-[80px] bg-[url('/images/human-2.png')] bg-cover  "></div>
+                           </div>                 
+                                            {/* names */}
+                           <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[30px] h-[57px] w-[394px] text-center">
+                              <h6 className="font-semibold text-[20px]">Joseph Munyambu</h6>
+                              <p className="font-normal text-[18px]">Nursing Assistant</p>
+                           </div>
+                                        {/* aaccounts */}
+                          <div className="mt-[80px] h-[24px] w-[394px] flex justify-center">              
+                             <div className="h-[24px] w-[100px] flex justify-between">
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Linkedin.png')] bg-cover"></div>
+                                <div className="mt-[5px] h-[15.3px] w-[18px] bg-[url('/images/twit.png')] bg-cover"></div>
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Dribble.png')] bg-cover"></div>
+                             </div>
+                          </div>   
+                     </div>
+                      {/* ---------box-3---------- */}
+                      <div  className="h-[209px] w-[394px]">
+                                       {/* photo */}
+                           <div className="h-[80px] w-[394px] flex justify-center">          
+                             <div className="h-[80px] w-[80px] bg-[url('/images/human-3.png')] bg-cover  "></div>
+                           </div>                 
+                                            {/* names */}
+                           <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[30px] h-[57px] w-[394px] text-center">
+                              <h6 className="font-semibold text-[20px]">Joseph Ngumbau</h6>
+                              <p className="font-normal text-[18px]">Medical Assistant</p>
+                           </div>
+                                        {/* aaccounts */}
+                          <div className="mt-[80px] h-[24px] w-[394px] flex justify-center">              
+                             <div className="h-[24px] w-[100px] flex justify-between">
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Linkedin.png')] bg-cover"></div>
+                                <div className="mt-[5px] h-[15.3px] w-[18px] bg-[url('/images/twit.png')] bg-cover"></div>
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Dribble.png')] bg-cover"></div>
+                             </div>
+                          </div>   
+                     </div>
+                 </div>
+                  {/* --------------------TEAM_LAY_2-------------------- */}
+                  <div className="h-[209px] w-[1280px] flex justify-evenly">
+                      {/* ---------box-1---------- */}
+                     <div  className="h-[209px] w-[394px]">
+                                       {/* photo */}
+                           <div className="h-[80px] w-[394px] flex justify-center">          
+                             <div className="h-[80px] w-[80px] bg-[url('/images/human-4.png')] bg-cover  "></div>
+                           </div>                 
+                                            {/* names */}
+                           <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[30px] h-[57px] w-[394px] text-center">
+                              <h6 className="font-semibold text-[20px]">Erick Kipkemboi</h6>
+                              <p className="font-normal text-[18px]">Web Designer</p>
+                           </div>
+                                        {/* aaccounts */}
+                          <div className="mt-[80px] h-[24px] w-[394px] flex justify-center">              
+                             <div className="h-[24px] w-[100px] flex justify-between">
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Linkedin.png')] bg-cover"></div>
+                                <div className="mt-[5px] h-[15.3px] w-[18px] bg-[url('/images/twit.png')] bg-cover"></div>
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Dribble.png')] bg-cover"></div>
+                             </div>
+                          </div>   
+                     </div>
+                      {/* ---------box-2---------- */}
+                      <div  className="h-[209px] w-[394px]">
+                                       {/* photo */}
+                           <div className="h-[80px] w-[394px] flex justify-center">          
+                             <div className="h-[80px] w-[80px] bg-[url('/images/human-5.png')] bg-cover  "></div>
+                           </div>                 
+                                            {/* names */}
+                           <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[30px] h-[57px] w-[394px] text-center">
+                              <h6 className="font-semibold text-[20px]">Stephen Kerubo</h6>
+                              <p className="font-normal text-[18px]">President of Sales</p>
+                           </div>
+                                        {/* aaccounts */}
+                          <div className="mt-[80px] h-[24px] w-[394px] flex justify-center">              
+                             <div className="h-[24px] w-[100px] flex justify-between">
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Linkedin.png')] bg-cover"></div>
+                                <div className="mt-[5px] h-[15.3px] w-[18px] bg-[url('/images/twit.png')] bg-cover"></div>
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Dribble.png')] bg-cover"></div>
+                             </div>
+                          </div>   
+                     </div>
+                      {/* ---------box-3---------- */}
+                      <div  className="h-[209px] w-[394px]">
+                                       {/* photo */}
+                           <div className="h-[80px] w-[394px] flex justify-center">          
+                             <div className="h-[80px] w-[80px] bg-[url('/images/human-6.png')] bg-cover  "></div>
+                           </div>                 
+                                            {/* names */}
+                           <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[30px] h-[57px] w-[394px] text-center">
+                              <h6 className="font-semibold text-[20px]">John Leboo</h6>
+                              <p className="font-normal text-[18px]">Dog Trainer</p>
+                           </div>
+                                        {/* aaccounts */}
+                          <div className="mt-[80px] h-[24px] w-[394px] flex justify-center">              
+                             <div className="h-[24px] w-[100px] flex justify-between">
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Linkedin.png')] bg-cover"></div>
+                                <div className="mt-[5px] h-[15.3px] w-[18px] bg-[url('/images/twit.png')] bg-cover"></div>
+                                <div className="h-[24px] w-[24px] bg-[url('/images/Dribble.png')] bg-cover"></div>
+                             </div>
+                          </div>   
+                     </div>
+                 </div>
+           {/* div-2 */}
+            </div>
+     {/* main-team */}
+        </div>
+
 
 
  {/*  body */}
