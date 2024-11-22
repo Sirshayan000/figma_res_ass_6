@@ -5,17 +5,21 @@ export default function HomePage(){
 {/* ----------------------------userID--------- */}
       <div className=" h-[54px] w-[1280px] flex justify-center bg-[#f7f7f7] items-center border">
 
-        <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[30px] w-[386px] flex justify-center items-center text-[14px] font-normal ">
+         <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[30px] w-[386px] flex justify-center items-center text-[14px] font-normal ">
            <p className="pr-[10px]">Phone Number: 956 742 455 678</p>
            <p className=" h-[30px] w-[1px] bg-[url('/images/line-3.png')] bg cover"></p>
            <p className="pl-[10px]">Email:info@ddsgnr.com</p>
          </div>
 
          <div className="h-[30px] w-[736px] flex justify-end items-center text-[14px]">
-            <div className="h-[24px] w-[24px] text-center"><div className="h-[10px] w-[18px] bg-[url('/images/facebook.png')] bg-cover"></div></div>
-            <div className="h-[24px] w-[24px] bg-[url('/images/insta.png')] bg-cover"></div>
-            <div className="h-[24px] w-[24px] bg-[url('/images/twitter.png')] bg-cover"></div>
-            <div className="h-[18px] w-[18px] bg-[url('/images/Vector.svg')] bg-cover"></div>
+
+           <div className="h-[24px] w-[132px] flex justify-between">
+              <div className="h-[18px] w-[10px] bg-[url('/images/facebook.png')] bg-cover"></div>
+              <div className="h-[18px] w-[18px] bg-[url('/images/insta.png')] bg-cover"></div>
+              <div className="mt-[3px] h-[15.3px] w-[18px] bg-[url('/images/twit.png')] bg-cover"></div>
+              <div className="mt-[-2px] h-[24px] w-[24px] bg-[url('/images/Linkedin.png')] bg-cover"></div>
+           </div>
+
          </div>
       </div>
 
@@ -411,7 +415,7 @@ export default function HomePage(){
 
 {/* -------------------------------------------TEAMsection------------------- */}
         
-        <div className="h-[885px] w-[1280px]  bg-[#f7f7f7] mt-[100px]">
+        <div className="h-[1034px] w-[1280px]  bg-[#f7f7f7] mt-[100px]">
           {/* ----------------------------div_one----------- */}
            <div className="pt-[100px]">
             <div style={{ fontFamily: 'Roboto, sans-serif' }} className="border border-transparent ml-[250px] h-[109px] w-[768px] text-center">
@@ -486,7 +490,7 @@ export default function HomePage(){
                      </div>
                  </div>
                   {/* --------------------TEAM_LAY_2-------------------- */}
-                  <div className="h-[209px] w-[1280px] flex justify-evenly">
+                  <div className="mt-[140px] h-[209px] w-[1280px] flex justify-evenly">
                       {/* ---------box-1---------- */}
                      <div  className="h-[209px] w-[394px]">
                                        {/* photo */}
@@ -553,7 +557,209 @@ export default function HomePage(){
      {/* main-team */}
         </div>
 
+        {/* --------------CUSTOMERscetion-------------------------------- */}
 
+        <div className="pl-[65px] h-[870px] w-[1280px] bg-[#f7f7f7]">
+                        {/* div_1 */}
+            <div style={{ fontFamily: 'Roboto, sans-serif' }} className="pt-[100px] h[109px] w-[560px]">
+                <h1 className="font-bold text-[48px]">Customer testimonials</h1>
+                <p className="pt-[10px] font-normal text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         {/* div-1-end */}
+            </div>
+
+                      {/* div_2 */}
+            <div className="mt-[100px] h-[322px] w-[1152px] flex justify-between">
+                     {/* box-1 */}
+                <div className="pl-[30px] pt-[35px] h-[322px] w-[362px] border border-[#000000]">   
+                                      {/* stars */}
+                    <div className="h-[18.89px] w-[116px] bg-[url('/images/blackStars.png')] bg-cover"></div>
+                                      {/* info */}
+                    <div style={{ fontFamily: 'Roboto, sans-serif' }}  className="mt-[25px] h-[132px] w-[296px]">
+                        <p className="font-normal text-[18px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
+                    </div>
+                                      {/* hisName */}
+                    <div  className="mt-[25px] h-[56px] w-[254px] flex justify-between">
+                       <div className="h-[56px] w-[56px] rounded-[50%] bg-[url('/images/human-3.png')] bg-cover">
+                       </div>
+
+                       <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[5px] h-[48px] w-[178px]">
+                        <h6 className="font-semibold text-[16px]">James Nduku</h6>
+                        <p className="font-normal text-[16px]">Software Developer</p>
+                       </div>
+
+                    </div>
+                </div>
+                  {/* box-2 */}
+                  <div className="pl-[30px] pt-[35px] h-[322px] w-[362px] border border-[#000000]">   
+                                      {/* stars */}
+                    <div className="h-[18.89px] w-[116px] bg-[url('/images/blackStars.png')] bg-cover"></div>
+                                      {/* info */}
+                    <div style={{ fontFamily: 'Roboto, sans-serif' }}  className="mt-[25px] h-[132px] w-[296px]">
+                        <p className="font-normal text-[18px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
+                    </div>
+                                      {/* hisName */}
+                    <div  className="mt-[25px] h-[56px] w-[254px] flex justify-between">
+                       <div className="h-[56px] w-[56px] rounded-[50%] bg-[url('/images/human-3.png')] bg-cover">
+                       </div>
+
+                       <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[5px] h-[48px] w-[178px]">
+                        <h6 className="font-semibold text-[16px]">James Nduku</h6>
+                        <p className="font-normal text-[16px]">Software Developer</p>
+                       </div>
+
+                    </div>
+                </div>
+                  {/* box-3 */}
+                  <div className="pl-[30px] pt-[35px] h-[322px] w-[362px] border border-[#000000]">   
+                                      {/* stars */}
+                    <div className="h-[18.89px] w-[116px] bg-[url('/images/blackStars.png')] bg-cover"></div>
+                                      {/* info */}
+                    <div style={{ fontFamily: 'Roboto, sans-serif' }}  className="mt-[25px] h-[132px] w-[296px]">
+                        <p className="font-normal text-[18px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
+                    </div>
+                                      {/* hisName */}
+                    <div  className="mt-[25px] h-[56px] w-[254px] flex justify-between">
+                       <div className="h-[56px] w-[56px] rounded-[50%] bg-[url('/images/human-3.png')] bg-cover">
+                       </div>
+
+                       <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[5px] h-[48px] w-[178px]">
+                        <h6 className="font-semibold text-[16px]">James Nduku</h6>
+                        <p className="font-normal text-[16px]">Software Developer</p>
+                       </div>
+
+                    </div>
+                </div>
+        {/* div-2-end */}
+            </div>
+
+
+{/* ------------------------------------div3------ */}
+            <div className="mt-[60px] h-[48px] w-[1152px] flex justify-between">
+                <div className="h-[9px] w-[72px] bg-[url('/images/SliderDots.png')] bg-cover"></div>
+                <div className="h-[49px] w-[111px] bg-[url('/images/SliderButtons.png')] bg-cover"></div>
+            </div>
+    {/* main-cus */}
+        </div>
+
+  {/* ---------------------------------------------------------------------------------------------------       */}
+            
+              {/* -------------------FOOTER_________________ */}
+
+        <div style={{ fontFamily: 'Roboto, sans-serif' }} className="mt-[100px] h-[684px] w-[1280px] bg-[#ffffff]">
+
+           <div className="pt-[80px] pl-[80px] h-[524px] w-[1120px]">
+                       {/* div-1 */}
+               <div className="w-[1120px] h-[82px] flex justify-between">
+                              {/* sub-1 */}
+                   <div className="h-[51px] w-[500px]">
+                      <h6 className="font-semibold text-[18px]">Subscribe to our newsletter</h6>
+                      <p className="font-normal text-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>    
+                   </div>
+                              {/* sub-2 */}
+                   <div className="h-[82px] w-[400px]">
+                      <div className="h-[48px] w-[400px] flex justify-between">
+                         <input className="border border-black font-normal text-[16px] h-[48px] w-[265px] rounded-md pl-[15px]" type="text" placeholder="Enter your email" />
+                         <button className="border border-black font-normal text-[16px] rounded-md h-[48px] w-[119px]">Subscribe</button>
+                      </div>
+                      <p className=" pt-[15px] font-normal text-[12px]">By subscribing you agree to with our  </p>
+
+                   </div>
+               {/* 1-end     */} 
+               </div>   
+
+{/* -------------------------------------DIv-2----------------- */}
+               <div className="mt-[120px] h-[250px] w-[1120px] flex justify-between">
+                   {/* box-1 */}
+                  <div className="h-[40px] w-[250px]">
+                       <div className="h-[30.38px] w-[130.36px] flex">
+                           <div className="h-[30.38px] w-[32.58px] bg-[url('/images/dasgnr-logo.png')] bg-cover"></div>
+                           <h3 style={{ fontFamily: 'Inter, sans-serif' }} className="h-[30px] w-[90px] font-bold text-[25.07px] pl-[7px]">Dasgnr</h3>
+                       </div>
+                  </div>
+                  {/* box-2 */}
+                  <div className="h-[225px] w-[250px]">
+                     <div className="h-[24px] w-[250px]">
+                          <h5 className="font-semibold text-[16px]">Courses</h5>
+                     </div>
+
+                     <div className="h-[185px] w-[250px] font-normal text-[14px">
+                         <ul className="pt-[25px]">
+                          <li>Business</li>
+                          <li className="pt-[20px]">Development</li>
+                          <li className="pt-[20px]">Technology</li>
+                          <li className="pt-[20px]">Design</li>
+                          <li className="pt-[20px]">Programming</li>
+                         </ul>
+                     </div>
+                  </div>
+                  {/* box-3 */}
+                  <div className="h-[225px] w-[250px]">
+                     <div className="h-[24px] w-[250px]">
+                          <h5 className="font-semibold text-[16px]">Courses</h5>
+                     </div>
+
+                     <div className="h-[185px] w-[250px] font-normal text-[14px">
+                         <ul className="pt-[25px]">
+                          <li>Business</li>
+                          <li className="pt-[20px]">Development</li>
+                          <li className="pt-[20px]">Technology</li>
+                          <li className="pt-[20px]">Design</li>
+                          <li className="pt-[20px]">Programming</li>
+                         </ul>
+                     </div>
+                  </div>
+                  {/* box-4 */}
+                  <div className="h-[225px] w-[250px]">
+                     <div className="h-[24px] w-[250px]">
+                          <h5 className="font-semibold text-[16px]">Courses</h5>
+                     </div>
+
+                     <div className="h-[185px] w-[250px] font-normal text-[14px">
+                         <ul className="pt-[25px]">
+                          <li>Business</li>
+                          <li className="pt-[20px]">Development</li>
+                          <li className="pt-[20px]">Technology</li>
+                          <li className="pt-[20px]">Design</li>
+                          <li className="pt-[20px]">Programming</li>
+                         </ul>
+                     </div>
+                  </div>
+               {/* 2-end */}
+               </div>
+
+               {/* -----------------DIV3---------- */}
+
+               <div className="mt-[100px] h-[57px] w-[1120px]">
+                  <div className="h-[1px] w-[1120px] bg-[url('/images/Divider.png')] bg-cover"></div>
+
+                  <div className="mt-[40px] h-[24px] w-[1120px] flex justify-between">
+
+                     <div className="h-[21px] w-[564px] flex justify-between">
+                        <div className="h-[21px] w-[196px] font-normal text-[14px]">
+                          <p>2023 Ddsgnr. All right reserved.</p>
+                        </div>
+
+                        <div className="h-[21px] w-[345px] font-normal text-[14px] underline cursor-pointer flex justify-between">
+                          <a>Privacy Policy</a>
+                          <a>Terms of Service</a>
+                          <a>Cookies Settings</a>
+                        </div>   
+                     </div> 
+
+                     <div className="h-[24px] w-[132px] flex justify-between">
+                        <div className="h-[18px] w-[10px] bg-[url('/images/facebook.png')] bg-cover"></div>
+                        <div className="h-[18px] w-[18px] bg-[url('/images/insta.png')] bg-cover"></div>
+                        <div className="mt-[3px] h-[15.3px] w-[18px] bg-[url('/images/twit.png')] bg-cover"></div>
+                        <div className="mt-[-2px] h-[24px] w-[24px] bg-[url('/images/Linkedin.png')] bg-cover"></div>
+                     </div>
+                  </div>
+              {/* 3-end */}
+               </div>
+            </div>
+
+
+    {/* foot    */}
+        </div>      
 
  {/*  body */}
     </div>
