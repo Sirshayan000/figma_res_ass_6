@@ -11,7 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
+      },                                                                        
+
+      screen:{
+        mobile:{"max-w":"1000px"}
+      }
     },
   },
   plugins: [],
