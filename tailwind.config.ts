@@ -13,9 +13,13 @@ export default {
         foreground: "var(--foreground)",
       },                                                                        
 
-      screen:{
-        mobile:{"max-w":"1000px"}
-      }
+      screens: {
+  			sm: '429px',
+  			md: '700px',
+  			'max-lg': {
+  				'max': '428px'
+  			}
+  		},
     },
   },
   plugins: [],
