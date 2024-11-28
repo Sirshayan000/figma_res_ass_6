@@ -1,12 +1,12 @@
 import React from "react"
 export default function HomePage(){
   return(
-    <div className="h-[7678px] w-[1280px] bg-[#ffffff] text-[black] max-lg:h-[8228px] max-lg:w-[428px]">
+    <div className="body h-[7678px] w-[1280px] bg-[#ffffff] text-[black] max-lg:h-[8228px] max-lg:w-[428px]">
 {/* ----------------------------userID--------- */}
       <div className=" h-[54px] w-[1280px] flex justify-center bg-[#f7f7f7] items-center border
        sm:flex max-lg:hidden  ">
 
-         <div style={{ fontFamily: 'Roboto, sans-serif' }} className="h-[30px] w-[386px] flex justify-center items-center text-[14px] font-normal ">
+         <div  style={{ fontFamily: 'Roboto, sans-serif' }} className= " h-[30px] w-[386px] flex justify-center items-center text-[14px] font-normal ">
            <p className="pr-[10px]">Phone Number: 956 742 455 678</p>
            <p className=" h-[30px] w-[1px] bg-[url('/images/line-3.png')] bg cover"></p>
            <p className="pl-[10px]">Email:info@ddsgnr.com</p>
